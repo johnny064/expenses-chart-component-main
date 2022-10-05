@@ -1,0 +1,172 @@
+/* font from google */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+/* reset
+ */
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: black;
+ }
+/* main container */
+main{
+    margin:60px auto 40px;
+    padding-top:15px;
+    width: 400px;
+    height: 600px;
+    background-color: hsl(27, 66%, 92%);
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 10px;
+}
+/* Balance header container */
+.balance-container{
+    background-color: hsl(10, 79%, 65%);
+    margin:60px 25px 15px 25px;
+    padding:20px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    position: relative;   
+}
+.header{
+    color:white;
+    font-size: 12px;
+}
+.balance-amount{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+.themeBtn p:first-child{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 02px solid white;
+    position: absolute;
+    right:30px;
+}
+.themeBtn p:last-child{
+    background-color: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;  
+}
+/* Charts  container design */
+.charts{
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    gap: 10px;  
+}
+/* data Container design */
+.data-container{
+    background-color: white;
+    margin:20px 25px 15px 25px;
+    padding: 10px;
+    border-radius:10px ;
+}
+.heading{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 1.1px;
+}
+.underline{
+    margin: 20px auto;
+    width: 300px;
+    height: 1px;
+    background-color: hsla(25, 19%, 46%, 0.192);
+}
+/* Monthy Expense container */
+.expense-monthly{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+.monthly-balance p:first-child{
+    font-size: 15px;
+    color: hsl(28, 10%, 53%);
+}
+.monthly-balance p:last-child{
+    font-size: 25px;
+    font-weight: 700;
+}
+.compare-monthly p:first-child{
+    margin-top: 10px;
+    font-weight: 700;
+}
+.compare-monthly p:last-child{
+    color:hsl(28, 10%, 53%);
+}
+/* expense amount on top design */
+.exp-amount{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    margin-bottom:5px ;
+    border-radius: 2px;
+    font-size: 8px;
+    transition: 0.2s ease-out;
+    opacity: 0;
+}
+.exp-amount:hover{
+    opacity: 1;
+    transition: 0.2s ease-out;
+
+}
+/* Footer design */
+.attribution { 
+    font-size: 15px; 
+    text-align: center; 
+    color: white;
+    margin-bottom:20px ;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,14 @@
+/* responsive CSS */
+
+@media screen and (min-width: 675px) {
+    main{
+        width: 600px;
+        height: 600px;
+    }
+    .chartBar{
+        width:60px;
+    }
+    .exp-amount{
+        font-size: 12px;
+    }
+  }

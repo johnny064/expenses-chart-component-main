@@ -1,0 +1,45 @@
+.bar-mon{
+    width: 30px;
+    height: 54px; 
+}
+.bar-tue{
+    width: 30px;
+    height: 105px; 
+}
+.bar-wed{
+    width: 30px;
+    height: 150px; 
+    background-color: hsl(186, 34%, 60%);
+    cursor: pointer;
+    border-radius: 3px;
+}
+.bar-thu{
+    width: 30px;
+    height: 90px; 
+}
+.bar-fri{
+    width: 30px;
+    height: 72px; 
+}
+.bar-sat{
+    width: 30px;
+    height: 132px; 
+}
+.bar-sun{
+    width: 30px;
+    height: 132px; 
+}
+.bar-mon,.bar-tue,.bar-thu,.bar-fri,.bar-sat,.bar-sun{
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.chartBar:hover{
+    background-color: hsla(10, 79%, 65%, 0.539);
+    transition: 0.5s ease-out;
+}
+.bar-wed:hover{
+    background-color: hsla(186, 34%, 60%, 0.491);
+    transition: 0.5s ease-out;
+}
+
